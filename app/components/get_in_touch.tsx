@@ -136,7 +136,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-medium text-lg text-gray-900">Visit Us</h4>
                   <p className="text-gray-600 text-sm">
-                    123 Sustainability Avenue, Accra, Ghana
+                  Mantukwa, Sunyani West, Ghana
                   </p>
                 </div>
               </motion.div>

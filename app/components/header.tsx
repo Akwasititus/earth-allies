@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import NextLink from 'next/link';
+import Image from 'next/image';
 import { Leaf, Menu, X } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
@@ -12,7 +13,16 @@ export default function Header() {
     <header className="sticky top-0 z-40 w-full border-b bg-white">
       <div className="container flex h-16 items-center justify-between">
         <NextLink href="/" className="flex items-center space-x-2">
-          <Leaf className="h-6 w-6 text-green-600" />
+          {/* Leaf className="h-6 w-6 text-green-600" /> */}
+            <div className="h-15 w-15">
+            <Image
+              src="/images/Earth-Allies-logo.png"
+              alt="Logo image"
+              height={50}
+              width={50}
+              className="object-contain"
+            />
+            </div>
           <span className="inline-block font-bold">Earth-Allies</span>
         </NextLink>
         
